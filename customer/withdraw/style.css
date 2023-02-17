@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    border: 1px solid black;
+    width: 98vw;
+}
+.admin{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.date{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+.admin h4{
+    margin: 0 0 0 10px;
+    font-size: 1.2rem;
+}
+.date h4{
+    margin: 0 10px 0 0;
+    font-size: 1.2rem;
+}
+.date i{
+    font-size: 20px;
+}
+section{
+    margin-top: 10px;
+    display: flex;
+    width: 98vw;
+    height: 100vh;
+}
+section .menu{
+    width: 300px;
+    background-color: rgb(223, 219, 219);
+}
+section ul{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+section ul li{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 250px;
+    background-color: rgb(119, 118, 118);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+.active{
+    background-color: black;
+}
+.deposit{
+    margin-top: 0;
+    margin-left: 50px;
+    width: 800px;
+}
+.deposit h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.deposit table{
+    margin-top: 40px;
+    width: 60%;
+}
+.deposit table input{
+    padding: 10px;
+}
+.deposit table button{
+    font-size: 1.2rem;
+    padding: 10px 50px 10px 50px;
+    font-weight: 500;
+    color: white;
+    background-color: black;
+}
+.deposit table td, th{
+    padding: 10px;
+    font-size: 1.5rem;
+}
